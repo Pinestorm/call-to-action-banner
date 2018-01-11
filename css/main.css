@@ -29,6 +29,30 @@ p {
   padding-top: .6rem;
 }
 
+.banner {
+  position: relative;
+  max-height: 500px;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .8rem;
+  max-width: 700px;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.banner-content h2, p {
+  margin: 0;
+}
+
 figure {
   float: left;
   margin: 0;
