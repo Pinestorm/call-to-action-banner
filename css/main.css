@@ -64,6 +64,27 @@ figure {
   width: 100%;
 }
 
+.text {
+  float: right;
+  padding-left: 1rem;
+  padding-right: .75rem;
+  max-width: 405px;
+  width: 67%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: .75em;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 125rem;
+  margin-bottom: 1rem;
+  font-family: Roboto;
+  font-size: 1.125rem;
+}
+
 .btn:hover{
   background-color: #000;
 }
